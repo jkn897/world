@@ -1,0 +1,4 @@
+multidatasource:
+  databases:
+    name:
+      - Oracle,MongoDb,PostgreSql

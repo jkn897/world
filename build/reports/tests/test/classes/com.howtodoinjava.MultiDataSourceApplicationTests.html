@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MultiDataSourceApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MultiDataSourceApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.howtodoinjava.html">com.howtodoinjava</a> &gt; MultiDataSourceApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.903s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">saveOrderDataInDB()</td>
+<td class="success">0.064s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">saveUserDataInDB()</td>
+<td class="success">1.826s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>18:13:56.605 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.howtodoinjava.MultiDataSourceApplicationTests]: MultiDataSourceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:13:56.947 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.howtodoinjava.MultiDataSourceApplication for test class com.howtodoinjava.MultiDataSourceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.9)
+
+2024-03-19T18:13:58.518+05:30  INFO 14104 --- [    Test worker] c.h.MultiDataSourceApplicationTests      : Starting MultiDataSourceApplicationTests using Java 17.0.8 with PID 14104 (started by Bapi in D:\WS\Practice\multi-data-source)
+2024-03-19T18:13:58.522+05:30  INFO 14104 --- [    Test worker] c.h.MultiDataSourceApplicationTests      : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-03-19T18:14:00.393+05:30  INFO 14104 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-19T18:14:00.524+05:30  INFO 14104 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 1 JPA repository interface.
+2024-03-19T18:14:00.528+05:30  INFO 14104 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-19T18:14:00.543+05:30  INFO 14104 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interface.
+2024-03-19T18:14:02.844+05:30  INFO 14104 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: order]
+2024-03-19T18:14:03.108+05:30  INFO 14104 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.22.Final
+2024-03-19T18:14:03.117+05:30  INFO 14104 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-03-19T18:14:04.283+05:30  INFO 14104 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-19T18:14:04.375+05:30  INFO 14104 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-19T18:14:05.151+05:30  INFO 14104 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b3f7704
+2024-03-19T18:14:05.157+05:30  INFO 14104 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-19T18:14:08.370+05:30  INFO 14104 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-19T18:14:08.553+05:30  INFO 14104 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'order'
+2024-03-19T18:14:08.572+05:30  INFO 14104 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: users]
+2024-03-19T18:14:08.615+05:30  INFO 14104 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-19T18:14:08.618+05:30  INFO 14104 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-03-19T18:14:09.114+05:30  INFO 14104 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn0: url=jdbc:h2:mem:user user=SA
+2024-03-19T18:14:09.115+05:30  INFO 14104 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-03-19T18:14:09.307+05:30  INFO 14104 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table users (id integer generated by default as identity, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (id))
+2024-03-19T18:14:09.380+05:30  INFO 14104 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'users'
+2024-03-19T18:14:10.982+05:30  WARN 14104 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-19T18:14:12.152+05:30  INFO 14104 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Databases available at 'jdbc:postgresql://localhost:5432/postgres', 'jdbc:h2:mem:user'
+2024-03-19T18:14:12.344+05:30  INFO 14104 --- [    Test worker] c.h.MultiDataSourceApplicationTests      : Started MultiDataSourceApplicationTests in 14.748 seconds (process running for 18.734)
+Hibernate: insert into users (email,first_name,last_name,id) values (?,?,?,default)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name from users u1_0 where u1_0.id=?
+Hibernate: insert into orders (order_amount,product_name,user_id) values (?,?,?)
+Hibernate: select o1_0.id,o1_0.order_amount,o1_0.product_name,o1_0.user_id from orders o1_0 where o1_0.id=?
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.6</a> at 19-Mar-2024, 6:14:14 pm</p>
+</div>
+</div>
+</body>
+</html>
